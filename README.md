@@ -198,17 +198,3 @@ ANTLR 4 ofrece dos mecanismos de recorrido. Se eligió **Visitor** porque la cal
 | Riesgo | Olvidar `visit()` en un hijo omite ese subárbol | Ninguno: el walker garantiza recorrer todo |
 | Uso típico | Evaluadores, intérpretes, compiladores | Traductores, extractores de código |
 
----
-
-## Ejercicios sugeridos (del libro)
-
-1. **Sentencia `clear`**: añade una alternativa en `stat` que vacíe el `HashMap` de memoria.
-2. **Números flotantes**: cambia `INT` por `FLOAT` (`[0-9]+'.'[0-9]*`) en la gramática y `Integer` por `Double` en el visitor.
-3. **Funciones built-in**: añade `abs(expr)`, `max(expr, expr)` como nuevas alternativas en `expr`.
-
----
-
-## Referencia
-
-- Parr, T. (2013). *The Definitive ANTLR 4 Reference*. Pragmatic Bookshelf. Capítulo 4: A Quick Tour.
-- Documentación oficial ANTLR 4: https://github.com/antlr/antlr4/blob/master/doc/index.md
