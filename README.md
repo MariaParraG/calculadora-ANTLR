@@ -14,7 +14,7 @@ Implementación en Java de la calculadora de expresiones aritméticas presentada
 
 ---
 
-## Estructura del proyecto
+## Estructura
 
 ```
 antlr-calculator/
